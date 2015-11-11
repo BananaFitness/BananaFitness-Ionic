@@ -26,7 +26,8 @@ Customer Endorsement
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Running Mobile App Locally](#running-mobile-app-locally)
+    1. [Running Ionic Browser](#running-ionic-browser)
+    1. [Running Ionic Lab](#running-ionic-lab)
 1. [Team](#team)
 1. [Contributing](#contributing)
 
