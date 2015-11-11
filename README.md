@@ -1,6 +1,6 @@
-# BananaFit (powered by Ionic)
+# Covalent Fitness
 
-  Social platform for fitness enthuiasts and their friends.
+> Social platform for fitness enthuiasts and their friends all in a mobile app. Built with Ionic, Node.js, Express, Sequelize, and PostgreSQL.
 
   Allows the user to share workouts and follow the plans of others. A great way to have a collection of all your friends'
   fitness plans.
@@ -13,70 +13,49 @@
 
 Customer Endorsement
   "Follow your fitness or at least the fitness of others" -Derrick
-  
-# Contributing
 
-## General Workflow
+## Team
 
-1. Fork the repo
+  - __Product Owner__: [Zachary Castellanos-Smith](https://github.com/ztsmith25)
+  - __Scrum Master__: [Laura Weaver](https://github.com/lauraweaver)
+  - __Development Team Members__: [Derrick Chie](https://github.com/djchie), [Ben Vibhagool](https://github.com/cvibhagool)
 
-2. In your console, clone the repo.
+## Table of Contents
 
-git clone https://github.com/<your_username>/BananaFitness-Ionic.git
+1. [Usage](#Usage)
+1. [Requirements](#requirements)
+1. [Development](#development)
+    1. [Installing Dependencies](#installing-dependencies)
+    1. [Tasks](#tasks)
+1. [Team](#team)
+1. [Contributing](#contributing)
 
-3. Make a branch for the issue you're trying to fix
-git checkout -b <title>
+## Usage
 
-4. Make changes to fix the issue and commit with the issue number. Using an editor is prefered over '-m'
-git commit -m '[close #<num>] <descripting commit message>'
+> Users can share workouts and follow the plans of others fitness enthusiasts. This allows for a great way to have a collection of all your friends' fitness plans. Covalent Fitness provides a medium for collabortive sharing of fitness plans.
 
-5. We use a rebase workflow. 
+## Requirements
 
-git pull --rebase origin master
+- Node
+- Postgresql 9.1.x
 
-6. Follow the console.
+## Development
 
-Push to your fork
+### Installing Dependencies
 
-git push origin HEAD
+From within the root directory:
 
-7. Make pull request.
-Once the pull request has been reviewed, it will be merged by another member of the team. 
+```sh
+sudo npm install -g bower
+npm install
+bower install
+```
 
-Guidelines
+### Roadmap
 
-Uphold the current code standard:
-Keep your code DRY
-Follow STYLE-GUIDE.md
-Run tests before submitting a pull request.
-Your pull request is comprised of a single commit.
-Commit messages should be written in the present tense. For example, "Fix continuous integration script".
+View the project roadmap [here](https://github.com/BananaFitness/BananaFitness-Ionic/issues)
 
-# Setting up ionic on your computer
-  - Run 'npm install -g ios-sim'
-  - Run 'npm install -g cordova ionic'
-  - Clone the repo, and go into it
-  - Run 'bower install'
-  - Run 'npm install'
-  - Run 'ionic platform add ios'
 
-# Running it
-  - ionic build ios
-  - ionic emulate ios
-  
-# Debugging
-  - ionic serve (This opens your app as a web app in your chrome. So you can use Chrome's console)
+## Contributing
 
-#Workflow
-## Simulating the app
-  1. Pull/Rebase the latest changes from the repo
-  3. Run 'ionic build ios' to compile your app locally. Do this when you make changes.
-  4. Run 'ionic emulate ios' to run your compiled app.
-  
-## Making changes
-  1. After making changes on your inoic, rebase your feature branch with the latest master branch.
-  2. Push your branch up to BananaFitness-Ionic
-  3. Create a pull request
-
-#Build failure
-  - Try deleting the platforms directory, adding ios platform, and rebuilding the app.
+See [CONTRIBUTING.md](https://github.com/BananaFitness/BananaFitness-Ionic/blob/master/CONTRIBUTING.md) for contribution guidelines.
