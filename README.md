@@ -1,6 +1,6 @@
 # Covalent Fitness
 
-> Social platform for fitness enthuiasts and their friends all in a mobile app. Built with Ionic, Node.js, Express, Sequelize, and PostgreSQL.
+> Social platform for fitness enthuiasts and their friends all in a mobile iOS and Android app. Built with Ionic, Node.js, Express, Sequelize, and PostgreSQL.
 
   Allows the user to share workouts and follow the plans of others. A great way to have a collection of all your friends'
   fitness plans.
@@ -26,7 +26,7 @@ Customer Endorsement
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
+    1. [Running Mobile App Locally](#running-mobile-app-locally)
 1. [Team](#team)
 1. [Contributing](#contributing)
 
@@ -37,7 +37,7 @@ Customer Endorsement
 ## Requirements
 
 - Node
-- Postgresql 9.1.x
+- Postgresql
 
 ## Development
 
@@ -48,7 +48,24 @@ From within the root directory:
 ```sh
 sudo npm install -g bower
 npm install
+npm install -g cordova ionic
 bower install
+```
+
+### Running Ionic Browser
+
+From within the root directory:
+
+```sh
+ionic serve
+```
+
+### Running Ionic Lab
+
+From within the root directory:
+
+```sh
+ionic serve --lab
 ```
 
 ### Roadmap
